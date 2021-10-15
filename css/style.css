@@ -1,0 +1,66 @@
+/* css reset */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* CSS Variables (optional)*/
+:root{
+    --navbar-height:59px;
+}
+/* body */
+body{
+    background-color: blanchedalmond;
+}
+/* Navigation Bar*/
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+
+
+}
+/* Navigation Bar :Logo and Image */
+#logo{
+    margin: 5px 30px 10px 6px;
+    
+}
+#logo img{
+    margin:3px 6px;
+    height: 60px;
+    width: 60px;
+    border-top-left-radius: 15px; 
+    border-top-right-radius: 15px; 
+    border-bottom-right-radius:24px; 
+    border-bottom-left-radius: 27px; 
+}
+/* Navigation Bar :Logo and Image */
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#navbar ul li{
+
+    list-style:none;
+    font-size: 1.3em;
+} 
+#navbar ul li a{
+    display: block;
+    padding: 3px 23px;
+    border-radius: 200px;
+    text-decoration: none;
+    color:white;
+    
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: wheat;
+}

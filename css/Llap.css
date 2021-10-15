@@ -1,0 +1,46 @@
+/* navigation */
+
+#navbar {}
+
+#navbar ul li a {}
+
+/* Home section */
+
+#Home {}
+
+#Home p {
+    /* width: 500px; */
+}
+
+#home h1 {}
+
+#Home::before {
+    top: 0px;
+    height: 180%;
+}
+
+/* Services section */
+
+#services {
+    overflow: hidden;
+    margin: -2px 2px;
+}
+
+#services .box {
+    padding: 1px;
+}
+
+/* Clients section */
+
+#clients::before {
+    top: 1202px;
+    height: 92px;
+}
+
+/* Contact Us Section */
+
+/* Footer */
+
+/* utility classes */
+
+.h-primary {}
